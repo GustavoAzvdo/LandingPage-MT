@@ -1,6 +1,6 @@
-import { CheckroomRounded, LocalMallRounded, BuildRounded, StarRounded, AgricultureRounded, SupportAgentRounded } from '@mui/icons-material';
+import { CheckroomRounded, LocalMallRounded, BuildRounded, StarRounded, AgricultureRounded, SupportAgentRounded, HandshakeRounded } from '@mui/icons-material';
 import { Box, Card, CardContent, Container, Grid, Typography } from '@mui/material';
-
+import images from '../../../public/ims.webp'
 const services = [
     {
         icon: <CheckroomRounded sx={{ fontSize: 48, color: "#1b4350" }} />,
@@ -81,7 +81,7 @@ const Services = () => {
                             color: "white",
                             p: 6,
                             borderRadius: 3,
-                            backgroundImage: "url(/placeholder.svg?height=300&width=1200&query=country+western+pattern+subtle)",
+                            backgroundImage: `url(${images})`,
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                             position: "relative",
@@ -99,11 +99,12 @@ const Services = () => {
                             }}
                         />
                         <Box sx={{ position: "relative", zIndex: 1 }}>
+                            <HandshakeRounded sx={{ fontSize: 48, color: "white" }}/>
                             <Typography variant="h4" gutterBottom sx={{ fontWeight: 600 }}>
-                                Tradição e Confian
+                                Tradição & Confiança 
                             </Typography>
                             <Typography variant="h6" sx={{ opacity: 0.9, mb: 3 }}>
-                                Oferecendo os melhores produtos country da região
+                                Oferecendo os melhores produtos country da região! 
                             </Typography>
                             <Typography variant="body1" sx={{ maxWidth: 800, mx: "auto", opacity: 0.8 }}>
                                 Nossa experiência e paixão pelo estilo country nos permite oferecer sempre os melhores produtos, com
