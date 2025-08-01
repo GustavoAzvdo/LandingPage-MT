@@ -1,6 +1,6 @@
 import { Email, Instagram, LocationOnRounded, WhatsApp, StorefrontRounded } from '@mui/icons-material'
 import { Box, Button, Card, CardContent, Container, Grid, IconButton, Typography } from '@mui/material'
-
+import banner from '../../../public/chapeu.jpg'
 
 const Contatos = () => {
     const contactMethods = [
@@ -33,7 +33,7 @@ const Contatos = () => {
         },
     ]
     return (
-        <Box sx={{ py: 8, backgroundColor: "#e6f0f2" }}>
+        <Box sx={{ py: 8, backgroundColor: "#e6f0f2" }} id='contato'>
             <Container maxWidth="lg">
                 <Box sx={{ textAlign: "center", mb: 6 }}>
                     <Typography variant="h2" component="h2" gutterBottom sx={{ color: "#1b4350", fontWeight: 700 }}>
@@ -132,13 +132,15 @@ const Contatos = () => {
                             left: 0,
                             right: 0,
                             bottom: 0,
-                            backgroundImage: "url(/placeholder.svg?height=300&width=1200&query=country+western+pattern+subtle)",
+                            backgroundImage: `url(${banner})`,
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                             opacity: 0.1,
                         }}
                     />
-                    <Box sx={{ position: "relative", zIndex: 1 }}>
+                    <Box sx={{ position: "relative", zIndex: 1 }}
+                        
+                    >
                         <Typography variant="h4" gutterBottom sx={{ fontWeight: 600, mb: 2 }}>
                             Visite Nossa Loja!
                         </Typography>

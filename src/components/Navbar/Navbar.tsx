@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import logo from '../../../public/logoRemove.png'
 const pages = ['Inicio', 'Historia', 'Serviços', 'Marcas', 'Localização', 'Contato'];
-
+const ids = ['inicio', 'historia', 'servicos', 'marcas', 'localizacao', 'contato'];
 
 function Navbar() {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
@@ -29,7 +29,7 @@ function Navbar() {
 
 
     return (
-        <AppBar position="static">
+        <AppBar position='sticky'>
             <Container maxWidth="xl">
                 <Toolbar disableGutters sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                     <Box display='flex' alignItems='center'>
@@ -81,8 +81,14 @@ function Navbar() {
                                 onClose={handleCloseNavMenu}
                                 sx={{ display: { xs: 'block', md: 'none' } }}
                             >
-                                {pages.map((page) => (
-                                    <MenuItem key={page} onClick={handleCloseNavMenu}>
+                                {pages.map((page, index) => (
+                                    <MenuItem
+                                        key={page}
+                                        onClick={() => {
+                                            handleCloseNavMenu();
+                                            document.getElementById(ids[index])?.scrollIntoView({ behavior: 'smooth' });
+                                        }}
+                                    >
                                         <Typography sx={{ textAlign: 'center' }}>{page}</Typography>
                                     </MenuItem>
                                 ))}
@@ -90,11 +96,12 @@ function Navbar() {
                         </Box>
 
 
-                        <Box  gap={2} sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }}}>
-                            {pages.map((page) => (
+                        <Box gap={2} sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                            {pages.map((page, index) => (
                                 <Button
                                     key={page}
                                     onClick={handleCloseNavMenu}
+                                    href={`#${ids[index]}`}
                                     sx={{
                                         my: 2,
                                         color: 'white',

@@ -10,7 +10,7 @@ const Footer = () => {
                 <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: { xs: 'space-around', sm: 'space-between', md: 'space-between' } }}>
                     <Box sx={{ width: '120px', display: 'flex', alignItems: 'center' }}>
                         <img src={logoRemove} alt="logoRemove" style={{ width: '50%' }} />
-                        <img src={logoEscrita} alt="logoEscriat" style={{ width: '100%' }} />
+                        <img src={logoEscrita} alt="logoEscriat" style={{ width: '100%', paddingTop: '8px' }} />
                     </Box>
                     <Box>
                         <Typography variant="h6" gutterBottom sx={{ fontWeight: 600, color: 'white' }}>
@@ -55,7 +55,7 @@ const Footer = () => {
                         <Box sx={{ display: "flex", alignItems: 'center', justifyContent: 'center', gap: 2, mt: 1 }}>
                             <IconButton
                                 color="inherit"
-                                href="www.linkedin.com/in/gustavoazevedo23"
+                                href="https://linkedin.com/in/gustavoazevedo23"
                                 target="_blank"
                                 sx={{ backgroundColor: "rgba(255,255,255,0.1)" }}
                             >
