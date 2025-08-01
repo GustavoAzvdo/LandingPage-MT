@@ -66,7 +66,7 @@ const Banner = () => {
                                     "&:hover": {
                                         backgroundColor: "#d0e7ea",
                                     },
-                                    px: 4,
+                                    px: 3,
                                     py: 1.5,
                                 }}
                                 endIcon={isMdUp ? <SearchRounded /> : null}
@@ -83,7 +83,7 @@ const Banner = () => {
                                         borderColor: "#ffffff",
                                         backgroundColor: "rgba(255,255,255,0.1)",
                                     },
-                                    px: 4,
+                                    px: 3,
                                     py: 1.5,
                                 }}
                                 endIcon={isMdUp ? <CallRounded /> : null}
