@@ -1,5 +1,5 @@
 import { Box, Button, Container, Grid, Stack, Typography } from "@mui/material"
-import { StoreRounded, LocalShippingRounded, VerifiedRounded, SearchRounded, CallRounded } from '@mui/icons-material';
+import { StoreRounded, LocalShippingRounded, VerifiedRounded} from '@mui/icons-material';
 
 import banner from '../../../public/banner.jpg'
 
@@ -67,7 +67,7 @@ const Banner = () => {
                                     px: 4,
                                     py: 1.5,
                                 }}
-                                endIcon= {<SearchRounded/>}
+                               
                             >
                                 Conheça nossos produtos
                             </Button>
@@ -84,7 +84,7 @@ const Banner = () => {
                                     px: 4,
                                     py: 1.5,
                                 }}
-                                endIcon={<CallRounded/>}
+                                
                             >
                                 Entre em contato
                             </Button>
