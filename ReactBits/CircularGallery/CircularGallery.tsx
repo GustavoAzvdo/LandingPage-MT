@@ -5,6 +5,9 @@ import docks from '../../public/marcas/docks.png'
 import zebu from '../../public/marcas/zebu.png'
 import bianchi from '../../public/marcas/bianchi.png'
 import goyazes from '../../public/marcas/goyazes.png'
+import alabama from '../../public/marcas/alabama.png'
+import wrangler from '../../public/marcas/wrangler.png'
+import texas from '../../public/marcas/texas.png'
 import "./CircularGallery.css";
 
 type GL = Renderer["gl"];
@@ -356,8 +359,8 @@ class Media {
       }
     }
     this.scale = this.screen.height / 1500;
-    this.plane.scale.y = (this.viewport.height * (650 * this.scale)) / this.screen.height;
-    this.plane.scale.x = (this.viewport.width * (1200 * this.scale)) / this.screen.width;
+    this.plane.scale.y = (this.viewport.height * (700 * this.scale)) / this.screen.height;
+    this.plane.scale.x = (this.viewport.width * (1400 * this.scale)) / this.screen.width;
     this.plane.program.uniforms.uPlaneSizes.value = [this.plane.scale.x, this.plane.scale.y];
     this.padding = 2;
     this.width = this.plane.scale.x + this.padding;
@@ -471,6 +474,9 @@ class App {
       { image: zebu, text: "Zebu" },
       { image: bianchi, text: "Bianchi" },
       { image: goyazes, text: "Goyazes" },
+      { image: alabama, text: "Alabama" },
+      { image: wrangler, text: "Wrangler" },
+      { image: texas, text: "Texas" },
     ];
     const galleryItems = items && items.length ? items : defaultItems;
     this.mediasImages = galleryItems.concat(galleryItems);

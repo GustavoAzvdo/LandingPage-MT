@@ -12,8 +12,14 @@ const Marcas = () => {
                     Trabalhamos com as melhores marcas do mercado country
                 </Typography>
             </Box>
-            <Box  style={{ height: '600px', position: 'relative' }}>
-               <CircularGallery bend={0} textColor="#ffffff" borderRadius={0.05} scrollEase={0.02}/>
+            <Box style={{height:'500px',position: 'relative' }}>
+                <CircularGallery bend={0} textColor="#ffffff" borderRadius={0.05} scrollEase={0.02} />
+            </Box>
+            <Box sx={{ textAlign: "center",}}>
+                <Typography variant="body1" sx={{ color: "#1b4350", opacity: 0.8, maxWidth: 800, mx: "auto" }}>
+                    Todas as marcas que trabalhamos são cuidadosamente selecionadas para garantir a melhor qualidade e
+                    autenticidade dos produtos country. Nosso compromisso é oferecer apenas o que há de melhor no mercado.
+                </Typography>
             </Box>
         </Box>
     )

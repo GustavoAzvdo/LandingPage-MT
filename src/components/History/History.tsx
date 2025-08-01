@@ -25,7 +25,7 @@ const History = () => {
                         <HistoryEduRounded sx={{ color: "#1b4350", pl: 1 }} fontSize='large' />
                     </Box>
                     <Typography variant="h6" sx={{ color: "#1b4350", opacity: 0.8, maxWidth: 600, mx: "auto" }}>
-                        Conheça como começamos e como chegamos até hoje
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, ullam?
                     </Typography>
                 </Box>
                 <Box sx={{ textAlign: { xs: 'center', sm: 'center', md: 'start' }, my: 6 }}>

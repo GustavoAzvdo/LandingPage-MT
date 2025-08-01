@@ -4,6 +4,9 @@ import Banner from '../components/Banner/Banner'
 import History from '../components/History/History'
 import Services from '../components/Services/Services'
 import Marcas from '../components/Marcas/Marcas'
+import Localization from '../components/Localization/Localization'
+import Contatos from '../components/Contatos/Contatos'
+import Footer from '../components/Footer/Footer'
 const Home = () => {
   return (
     <>
@@ -12,6 +15,9 @@ const Home = () => {
         <History />
         <Services/>
         <Marcas />
+        <Localization />
+        <Contatos />
+        <Footer />
     </>
   )
 }
