@@ -70,6 +70,7 @@ const Banner = () => {
                                     py: 1.5,
                                 }}
                                 endIcon={isMdUp ? <SearchRounded /> : null}
+                                href="#servicos"
                             >
                                 Conheça nossos produtos
                             </Button>
@@ -87,6 +88,7 @@ const Banner = () => {
                                     py: 1.5,
                                 }}
                                 endIcon={isMdUp ? <CallRounded /> : null}
+                                href="#contato"
                             >
                                 Entre em contato
                             </Button>
