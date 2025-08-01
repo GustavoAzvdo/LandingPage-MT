@@ -1,5 +1,5 @@
-import { Box, Button, Container, Grid, Stack, Typography } from "@mui/material"
-import { StoreRounded, LocalShippingRounded, VerifiedRounded} from '@mui/icons-material';
+import { Box, Button, Container, Grid, Stack, Typography, useMediaQuery, useTheme } from "@mui/material"
+import { StoreRounded, LocalShippingRounded, VerifiedRounded, SearchRounded, CallRounded } from '@mui/icons-material';
 
 import banner from '../../../public/banner.jpg'
 
@@ -9,6 +9,8 @@ const infos = [
     { id: 3, icone: <VerifiedRounded fontSize="large" />, titulo: 'Qualidade Garantida', subtitulo: 'Produtos originais das melhores marcas' },
 ]
 const Banner = () => {
+    const theme = useTheme()
+    const isMdUp = useMediaQuery(theme.breakpoints.up("md"))
     return (
         <Box id='inicio'
             sx={{
@@ -67,7 +69,7 @@ const Banner = () => {
                                     px: 4,
                                     py: 1.5,
                                 }}
-                               
+                                endIcon={isMdUp ? <SearchRounded /> : null}
                             >
                                 Conheça nossos produtos
                             </Button>
@@ -84,15 +86,15 @@ const Banner = () => {
                                     px: 4,
                                     py: 1.5,
                                 }}
-                                
+                                endIcon={isMdUp ? <CallRounded /> : null}
                             >
                                 Entre em contato
                             </Button>
                         </Box>
-                        <Stack direction='column' sx={{mt: 5}} gap={2}>
+                        <Stack direction='column' sx={{ mt: 5 }} gap={2}>
                             {infos.map((info) => (
 
-                                <Box key={info.id} sx={{ display: 'flex', alignItems: 'center',  }} gap={2} >
+                                <Box key={info.id} sx={{ display: 'flex', alignItems: 'center', }} gap={2} >
                                     <Box>
                                         {info.icone}
                                     </Box>
@@ -100,7 +102,7 @@ const Banner = () => {
                                         <Typography variant="h6" sx={{ fontWeight: 600 }}>
                                             {info.titulo}
                                         </Typography>
-                                         <Typography variant="body2" sx={{ opacity: 0.8 }}>
+                                        <Typography variant="body2" sx={{ opacity: 0.8 }}>
                                             {info.subtitulo}
                                         </Typography>
                                     </Box>
