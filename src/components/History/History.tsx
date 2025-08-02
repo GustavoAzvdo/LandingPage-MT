@@ -26,7 +26,9 @@ const History = () => {
                             <HistoryEduRounded sx={{ color: "#1b4350", pl: 1 }} fontSize='large' />
                         </Box>
                         <Typography variant="h6" sx={{ color: "#1b4350", opacity: 0.8, maxWidth: 600, mx: "auto" }}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, ullam?
+                            Tudo começou com a ideia de trazer para a região um espaço voltado ao estilo de vida sertanejo, oferecendo produtos
+                            que unissem qualidade e autenticidade. A partir dessa paixão pela cultura caipira, a Mundão Traiado começou a ganhar forma
+                            e se tornou um ponto de encontro para quem vive e respira esse universo!
                         </Typography>
                     </Box>
                     <Box sx={{ textAlign: { xs: 'center', sm: 'center', md: 'start' }, my: 6 }}>

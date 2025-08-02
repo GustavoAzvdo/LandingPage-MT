@@ -26,6 +26,7 @@ import ramenzoni from '../../public/marcas/ramenzoni.png'
 import dallas from '../../public/marcas/dallas.jpeg'
 import radade from '../../public/marcas/radade.png'
 import tdp from '../../public/marcas/tdp.png.png'
+import garrutti from '../../public/marcas/garrutti.jpg'
 
 
 
@@ -591,6 +592,10 @@ class App {
       {
         image: tdp,
         text: "Terra de peão",
+      },
+      {
+        image: garrutti,
+        text: "Garrutti",
       },
 
     ];

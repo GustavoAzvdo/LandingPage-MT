@@ -87,7 +87,7 @@ const Localization = () => {
                                     <Chip
                                         icon={<DirectionsRounded sx={{ color: 'white !important' }} />}
                                         label="Como Chegar"
-                                        clickable
+                                        
                                         sx={{
                                             backgroundColor: "#1b4350",
                                             color: "white",
@@ -95,6 +95,7 @@ const Localization = () => {
                                                 backgroundColor: "#2d5a68",
                                             },
                                         }}
+                                        
                                     />
                                 </CardContent>
                             </Card>

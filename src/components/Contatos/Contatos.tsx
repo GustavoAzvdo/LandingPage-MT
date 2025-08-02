@@ -144,7 +144,7 @@ const Contatos = () => {
                         <Box>
 
                             <Typography variant="h4" gutterBottom sx={{ fontWeight: 600, mb: 2 }}>
-                                Visite Nossa Loja
+                                Venha nos fazer uma visita!
                             </Typography>
                         </Box>
                         <Typography variant="h6" sx={{ opacity: 0.9, mb: 4, maxWidth: 600, mx: "auto" }}>
