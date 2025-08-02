@@ -23,8 +23,10 @@ import sibu from '../../public/marcas/sibu.jpg'
 import billway from '../../public/marcas/billway.png'
 import copenhagem from '../../public/marcas/copenhagem.png'
 import ramenzoni from '../../public/marcas/ramenzoni.png'
-import ariat from '../../public/marcas/ariat.png'
 import dallas from '../../public/marcas/dallas.jpeg'
+import radade from '../../public/marcas/radade.png'
+import tdp from '../../public/marcas/tdp.png.png'
+
 
 
 import "./CircularGallery.css";
@@ -579,12 +581,16 @@ class App {
         text: "Ramenzoni",
       },
       {
-        image: ariat,
-        text: "Ariat",
-      },
-      {
         image: dallas,
         text: "Dallas",
+      },
+      {
+        image: radade,
+        text: "Radade",
+      },
+      {
+        image: tdp,
+        text: "Terra de peão",
       },
 
     ];
