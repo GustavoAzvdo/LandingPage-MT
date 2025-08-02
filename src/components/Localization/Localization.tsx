@@ -1,4 +1,4 @@
-import { AccessTimeRounded, DirectionsRounded, LocationOnRounded, PhoneRounded, PhoneAndroidRounded } from "@mui/icons-material"
+import { MapRounded, AccessTimeRounded, DirectionsRounded, LocationOnRounded, PhoneRounded, PhoneAndroidRounded } from "@mui/icons-material"
 import { Box, Card, CardContent, Chip, Container, Grid, Typography } from "@mui/material"
 
 const Localization = () => {
@@ -6,9 +6,12 @@ const Localization = () => {
         <Box sx={{ py: 8, backgroundColor: "white" }} id='localizacao'>
             <Container maxWidth="lg">
                 <Box sx={{ textAlign: "center", mb: 6 }}>
-                    <Typography variant="h2" component="h2" gutterBottom sx={{ color: "#1b4350", fontWeight: 700 }}>
-                        Nossa Localização
-                    </Typography>
+                    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <Typography variant="h4" gutterBottom sx={{color: "#1b4350" ,fontWeight: 600 }}>
+                            Visite Nossa Loja
+                        </Typography>
+                        <MapRounded sx={{ fontSize: 40, color: "#1b4350" , pb: 1, pl: 1}} />
+                    </Box>
                     <Typography variant="h6" sx={{ color: "#1b4350", opacity: 0.8, maxWidth: 600, mx: "auto" }}>
                         Venha nos visitar e conheça nossa loja pessoalmente
                     </Typography>
@@ -148,7 +151,7 @@ const Localization = () => {
                                         </Typography>
 
                                     </Box>
-                                   <Box sx={{ display: 'flex', gap: 1 , mt: 1}}>
+                                    <Box sx={{ display: 'flex', gap: 1, mt: 1 }}>
                                         <PhoneRounded sx={{ color: "#1b4350" }} />
                                         <Typography variant="body1" sx={{ color: "#1b4350", fontWeight: 600 }}>
                                             (12) 3311-3436

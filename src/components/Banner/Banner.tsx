@@ -1,6 +1,6 @@
 import { Box, Button, Container, Grid, Stack, Typography, useMediaQuery, useTheme } from "@mui/material"
 import { StoreRounded, LocalShippingRounded, VerifiedRounded, SearchRounded, CallRounded } from '@mui/icons-material';
-
+import mouse from '../../../public/mouse.gif'
 import banner from '../../../public/banner.jpg'
 
 const infos = [
@@ -114,7 +114,10 @@ const Banner = () => {
                             ))}
                         </Stack>
                     </Grid>
-
+                    <Grid size={{ xs: 12, sm: 12, md: 12 }} sx={{ display: 'flex', justifyContent: 'center', pb: 0 }}>                        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100px', height: '80px' }}>
+                        <img src={mouse} alt="mouse_gif" style={{ width: '100%', height: '100%' }} />
+                    </Box>
+                    </Grid>
                 </Grid>
             </Container>
 

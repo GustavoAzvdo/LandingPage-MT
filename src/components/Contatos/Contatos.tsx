@@ -40,7 +40,7 @@ const Contatos = () => {
                         Entre em Contato
                     </Typography>
                     <Typography variant="h6" sx={{ color: "#1b4350", opacity: 0.8, maxWidth: 600, mx: "auto" }}>
-                        Estamos sempre prontos para atendê-lo da melhor forma
+                        Estamos sempre prontos para atendê-lo da melhor forma!
                     </Typography>
                 </Box>
 
@@ -102,9 +102,9 @@ const Contatos = () => {
                             }}
                         >
                             <CardContent sx={{ textAlign: "center", p: 4 }}>
-                                <Box sx={{py: 2}}>
-                                    <StorefrontRounded sx={{color: "#1b4350"}} fontSize='large'/>
-                                    <Typography variant="h6" gutterBottom sx={{ color:' #1b4350', fontWeight: 600, mb: 2 }}>
+                                <Box sx={{ py: 2 }}>
+                                    <StorefrontRounded sx={{ color: "#1b4350" }} fontSize='large' />
+                                    <Typography variant="h6" gutterBottom sx={{ color: ' #1b4350', fontWeight: 600, mb: 2 }}>
                                         Loja Online & Marketplace em breve
                                     </Typography>
                                 </Box>
@@ -139,11 +139,14 @@ const Contatos = () => {
                         }}
                     />
                     <Box sx={{ position: "relative", zIndex: 1 }}
-                        
+
                     >
-                        <Typography variant="h4" gutterBottom sx={{ fontWeight: 600, mb: 2 }}>
-                            Visite Nossa Loja!
-                        </Typography>
+                        <Box>
+
+                            <Typography variant="h4" gutterBottom sx={{ fontWeight: 600, mb: 2 }}>
+                                Visite Nossa Loja
+                            </Typography>
+                        </Box>
                         <Typography variant="h6" sx={{ opacity: 0.9, mb: 4, maxWidth: 600, mx: "auto" }}>
                             Venha conhecer pessoalmente nossos produtos e receba atendimento especializado. Estamos prontos
                             para ajudar você a encontrar tudo o que precisa.
