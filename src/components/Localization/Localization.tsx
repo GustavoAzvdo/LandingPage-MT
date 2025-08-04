@@ -3,7 +3,7 @@ import { Box, Card, CardContent, Chip, Container, Grid, Typography } from "@mui/
 
 const Localization = () => {
     return (
-        <Box sx={{ py: 8, backgroundColor: "white" }} id='localizacao'>
+        <Box sx={{ py: 8, backgroundColor: "white" , scrollMarginTop: '50px'}} id='localizacao'>
             <Container maxWidth="lg">
                 <Box sx={{ textAlign: "center", mb: 6 }}>
                     <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

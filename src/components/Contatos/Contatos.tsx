@@ -33,7 +33,7 @@ const Contatos = () => {
         },
     ]
     return (
-        <Box sx={{ py: 8, backgroundColor: "#e6f0f2" }} id='contato'>
+        <Box sx={{ py: 8, backgroundColor: "#e6f0f2", scrollMarginTop: '50px' }} id='contato'>
             <Container maxWidth="lg">
                 <Box sx={{ textAlign: "center", mb: 6 }}>
                     <Typography variant="h2" component="h2" gutterBottom sx={{ color: "#1b4350", fontWeight: 700 }}>

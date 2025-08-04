@@ -5,7 +5,7 @@ import CircularGallery from '../../../ReactBits/CircularGallery/CircularGallery'
 const Marcas = () => {
     return (
 
-        <Box sx={{ py: 8, bgcolor: '#e6f0f2' }} id='marcas'>
+        <Box sx={{ py: 8, bgcolor: '#e6f0f2' , scrollMarginTop: '50px'}} id='marcas' >
             <Container>
 
                 <Box sx={{ textAlign: 'center' }}>

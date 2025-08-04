@@ -14,6 +14,7 @@ const Banner = () => {
     return (
         <Box id='inicio'
             sx={{
+                scrollMarginTop: '100px',
                 background: "linear-gradient(135deg, #0f242bff 0%, #2d5a68 100%)",
                 color: "white",
                 py: { xs: 12, md: 12 },

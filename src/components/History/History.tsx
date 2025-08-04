@@ -16,7 +16,7 @@ const storytelling = [
 const History = () => {
     return (
         <>
-            <Box sx={{ bgcolor: '#e6f0f2' }} id='historia'>
+            <Box sx={{ bgcolor: '#e6f0f2', scrollMarginTop: '50px' }} id='historia' >
                 <Container>
                     <Box sx={{ textAlign: "center", py: 6 }} >
                         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

@@ -36,7 +36,7 @@ const services = [
 
 const Services = () => {
     return (
-        <Box sx={{ py: 8, bgcolor: 'white' }} id='servicos'>
+        <Box sx={{ py: 8, bgcolor: 'white', scrollMarginTop: '50px' }} id='servicos'>
             <Container>
                 <Box sx={{ textAlign: 'center', mb: 6 }}>
                     <Typography variant="h2" component="h2" gutterBottom sx={{ color: "#1b4350", fontWeight: 700 }}>
