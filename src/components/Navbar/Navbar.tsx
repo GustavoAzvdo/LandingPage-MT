@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import logo from '../../../public/logoRemove.png'
+import CurvedLoop from '../../../ReactBits/CurvedLoop/CurvedLoop'
 const pages = ['Inicio', 'Historia', 'Serviços', 'Marcas', 'Localização', 'Contato'];
 const ids = ['inicio', 'historia', 'servicos', 'marcas', 'localizacao', 'contato'];
 
@@ -125,6 +126,22 @@ function Navbar() {
                     </Box>
                 </Toolbar>
             </Container>
+            <Box sx={{ bgcolor: '#d32f2f', height: '30px', display: 'flex', alignItems: 'center' }}>
+                <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'  }}>
+                    <Typography variant='h4' sx={{height:'100%', width:'100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <CurvedLoop
+                            marqueeText="Loja em breve nos marketplaces!"
+                            speed={1}
+                            curveAmount={0}
+                            direction="right"
+                            interactive={true}
+                            className="custom-text-style"
+                        />
+
+                    </Typography>
+                </Box>
+
+            </Box>
         </AppBar>
     );
 }

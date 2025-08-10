@@ -42,6 +42,13 @@ const theme = createTheme({
         fontSize: "1.5rem",
       },
     },
+    h4: {
+      fontWeight: 600,
+      fontSize: "1.5rem",
+      "@media (max-width:600px)": {
+        fontSize: "1rem",
+      },
+    },
   },
   components: {
     MuiButton: {
