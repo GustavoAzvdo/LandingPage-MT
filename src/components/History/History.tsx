@@ -17,7 +17,7 @@ const History = () => {
     return (
         <>
             <Box sx={{ bgcolor: '#e6f0f2', scrollMarginTop: '50px' }} id='historia' >
-                <Container>
+                <Container sx={{textAlign: 'justify'}}>
                     <Box sx={{ py: 6 }} >
                         <Box sx={{ display: 'flex', alignItems:' center' }}>
                             <Typography variant="h2" component="h2" gutterBottom sx={{ pt: 1, color: "#1b4350", fontWeight: 700 }}>

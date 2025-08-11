@@ -26,9 +26,8 @@ function Navbar() {
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
     };
-
-
-
+    const espaco = '\u00A0'.repeat(50)
+    const mensagem = espaco + 'Loja Online em breve!' + espaco + 'Aguarde novidades!'; 
     return (
         <AppBar position='sticky'>
             <Container maxWidth="xl">
@@ -128,9 +127,9 @@ function Navbar() {
             </Container>
             <Box sx={{ bgcolor: '#d32f2f', height: '30px', display: 'flex', alignItems: 'center' }}>
                 <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'  }}>
-                    <Typography variant='h4' sx={{height:'100%', width:'100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <Typography variant='h4' sx={{height:'100%', width:'100%', display: 'flex', alignItems: 'center' , pb: 1}}>
                         <CurvedLoop
-                            marqueeText="Loja em breve nos marketplaces!"
+                            marqueeText={mensagem}
                             speed={1}
                             curveAmount={0}
                             direction="right"

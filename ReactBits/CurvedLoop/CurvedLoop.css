@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  padding-bottom: '120px';
 }
 
 .curved-loop-svg {
@@ -30,6 +31,6 @@
 }
 
 .custom-text-style {
-
-  font-size:30%; 
+  margin-bottom: '10px';
+  font-size:20%; 
 }
