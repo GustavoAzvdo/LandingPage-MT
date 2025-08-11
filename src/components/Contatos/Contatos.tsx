@@ -37,7 +37,7 @@ const Contatos = () => {
             <Container maxWidth="lg">
                 <Box sx={{ textAlign: "center", mb: 6 }}>
                     <Typography variant="h2" component="h2" gutterBottom sx={{ color: "#1b4350", fontWeight: 700 }}>
-                        Entre em Contato
+                        Entre em contato
                     </Typography>
                     <Typography variant="h6" sx={{ color: "#1b4350", opacity: 0.8, maxWidth: 600, mx: "auto" }}>
                         Estamos sempre prontos para atendê-lo da melhor forma!

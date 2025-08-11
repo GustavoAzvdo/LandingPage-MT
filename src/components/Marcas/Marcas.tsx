@@ -19,7 +19,7 @@ const Marcas = () => {
                     </Typography>
                 </Box>
                 <Box style={{ height: '400px', position: 'relative' }}>
-                    <CircularGallery bend={0} borderRadius={0.05} scrollEase={0.02} />
+                    <CircularGallery bend={0} borderRadius={0.05} scrollEase={0.02} scrollSpeed={3} />
                 </Box>
                 <Box sx={{ textAlign: "center" }}>
                     <Typography variant="body1" sx={{ color: "#1b4350", opacity: 0.8, maxWidth: 800, mx: "auto" }}>

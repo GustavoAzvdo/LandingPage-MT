@@ -17,15 +17,15 @@ const History = () => {
     return (
         <>
             <Box sx={{ bgcolor: '#e6f0f2', scrollMarginTop: '50px' }} id='historia' >
-                <Container>
-                    <Box sx={{ textAlign: "center", py: 6 }} >
-                        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <Container sx={{textAlign: 'justify'}}>
+                    <Box sx={{ py: 6 }} >
+                        <Box sx={{ display: 'flex', alignItems:' center' }}>
                             <Typography variant="h2" component="h2" gutterBottom sx={{ pt: 1, color: "#1b4350", fontWeight: 700 }}>
                                 Nossa História
                             </Typography>
                             <HistoryEduRounded sx={{ color: "#1b4350", pl: 1 }} fontSize='large' />
                         </Box>
-                        <Typography variant="h6" sx={{ color: "#1b4350", opacity: 0.8, maxWidth: 600, mx: "auto" }}>
+                        <Typography variant="h6" sx={{ color: "#1b4350", opacity: 0.8, mx: "auto", pt: 2 }}>
                             Tudo começou com a ideia de trazer para a região um espaço voltado ao estilo de vida sertanejo, oferecendo produtos
                             que unissem qualidade e autenticidade. A partir dessa paixão pela cultura caipira, a Mundão Traiado começou a ganhar forma
                             e se tornou um ponto de encontro para quem vive e respira esse universo!

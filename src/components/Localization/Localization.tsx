@@ -8,7 +8,7 @@ const Localization = () => {
                 <Box sx={{ textAlign: "center", mb: 6 }}>
                     <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <Typography variant="h4" gutterBottom sx={{color: "#1b4350" ,fontWeight: 600 }}>
-                            Visite Nossa Loja
+                            Visite nossa loja!
                         </Typography>
                         <MapRounded sx={{ fontSize: 40, color: "#1b4350" , pb: 1, pl: 1}} />
                     </Box>
